@@ -43,16 +43,3 @@ func (s *Stack) isEmpty() bool {
 func (s *Stack) size() int {
 	return len(s.data)
 }
-
-// func main() {
-// 	stack := Stack{}
-
-// 	for i := 1; i < 10; i++ {
-// 		stack.push(i * 10)
-// 	}
-
-// 	fmt.Println(stack.data...) // prints 10 20 30 40 50 60 70 80 90
-// 	fmt.Println(stack.peek())  //90
-// 	stack.pop()
-// 	fmt.Println(stack.data...) // 10 20 30 40 50 60 70 80
-// }
