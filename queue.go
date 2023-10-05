@@ -5,7 +5,6 @@ import (
 )
 
 // implementing queue
-
 type Queue struct {
 	data []interface{}
 }
