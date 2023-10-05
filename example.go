@@ -11,7 +11,7 @@ func main() {
 	}
 
 	fmt.Println(queue.data...) // prints 10 20 30 40 50 60 70 80 90
-	fmt.Println(queue.top())   //10
+	fmt.Println(queue.top())   // 10
 	queue.pop()
 	fmt.Println(queue.data...) // 20 30 40 50 60 70 80 90
 
